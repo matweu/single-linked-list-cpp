@@ -5,17 +5,17 @@
 *Добавление элемента в конец
    -void push_back(T data);
 *Получение размера коллекци
-	 - int GetSize() { return Size; }
+   - int GetSize() { return Size; }
 *Удаляем первый элемент
    - void pop_front();
 *Очищаем наш список
-	 - void clear();
+   - void clear();
 *Перегрузка оператора []
-	 - T& operator[](const int index);
+   - T& operator[](const int index);
 *Добавляем элемент в конец
-	 - void push_front(T data);
+   - void push_front(T data);
 *Добавляем Элемент по индексу
-	 - void insert(T data, int index);
+   - void insert(T data, int index);
 *Удаляем элемент по индексу
    - void removeAt(int index);
 *Удаляем последний элемент
